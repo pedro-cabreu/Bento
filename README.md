@@ -1,10 +1,10 @@
     
 <div align="center">
-<h1>Bento: 🍱 A Clean and Simple Startpage</h1>
+<h1>Nord Bento: 🍱 A Clean and Simple Nord Startpage</h1>
 </div>
 
 <p align="center">
-  <img src="https://github.com/MiguelRAvila/Bento/blob/master/assets/preview.png">
+  <img src="https://github.com/pedro-cabreu/Bento/blob/master/assets/preview_nord.png">
 </p>
 
 Bento but it's nord and dark (deleted the light theme).
