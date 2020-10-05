@@ -8,3 +8,4 @@
 </p>
 
 Bento but it's nord and dark (deleted the light theme).
+And font-awesome icons added.
