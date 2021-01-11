@@ -1,6 +1,6 @@
     
 <div align="center">
-<h1>~~Nord~~ Bento: 🍱 A Clean and Simple ~~Nord~~ Ocean Startpage</h1>
+    <h1><del>Nord</del> Bento: 🍱 A Clean and Simple <del>Nord</del> Ocean Startpage</h1>
 </div>
 
 <p align="center">
