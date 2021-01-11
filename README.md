@@ -1,6 +1,6 @@
     
 <div align="center">
-<h1>N̶o̶r̶d̶ Bento: 🍱 A Clean and Simple N̶o̶r̶d̶ Ocean Startpage</h1>
+<h1>~~Nord~~ Bento: 🍱 A Clean and Simple ~~Nord~~ Ocean Startpage</h1>
 </div>
 
 <p align="center">
