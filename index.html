@@ -4,11 +4,13 @@
         <meta charset="UTF-8" />
         <title>New Tab</title>
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/a53009ca2f.js" crossorigin="anonymous"></script>
         <script src="https://unpkg.com/feather-icons"></script>
     </head>
     <body class="">
         <button id="themeButton"><i id="bicon" data-feather="moon"></i></button>
+        <button id="chartButton"><i id="bicon" data-feather="bar-chart"></i></button>
+        <button id="fontButton"><i id="bicon" data-feather="type"></i></button>
         <div class="container">
             <div class="fblock">
                 <div class="clock">
@@ -148,10 +150,48 @@
                 >
             </div>
         </div>
+
+        <div class="modal">
+            <div class="modal-dialog">
+                <div class="modal-header">
+                    My stock market
+                </div>
+                <div class="loader" style="text-align: center;">
+                    <img src="assets/loader.gif" alt="" srcset="">
+                </div>
+                <div class="modal-body">
+                    <div id="MGLU-div" class="stock">
+                        <a id="MGLU" href="">MGLU3 x9</a>
+                        <p id="MGLU-value"></p>
+                    </div>
+                    <div id="WEG-div" class="stock">
+                        <a id="WEG" href="">WEGE3 x2</a>
+                        <p id="WEG-value"></p>
+                    </div>
+                    <div id="LAME-div" class="stock">
+                        <a id="LAME" href="">LAME4 x4</a>
+                        <p id="LAME-value"></p>
+                    </div>
+                    <div id="BBAS-div" class="stock">
+                        <a id="BBAS" href="">BBAS3 x2</a>
+                        <p id="BBAS-value"></p>
+                    </div>
+                    <div id="IGTA-div" class="stock">
+                        <a id="IGTA" href="">IGTA3 x2</a>
+                        <p id="IGTA-value"></p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <p id="total-value"></p>
+                </div>
+            </div>
+        </div>
+        <script src="js/jquery.js"></script>
         <script src="js/time.js"></script>
         <script src="js/theme.js"></script>
         <script src="js/greeting.js"></script>
         <script src="js/weather.js"></script>
+        <script src="js/stockexchange.js"></script>
         <script>
             feather.replace();
         </script>
